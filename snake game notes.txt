@@ -1,0 +1,52 @@
+Hi, I'm Faizan. I'm here to tell you about my project. The project is a Snake game. Yes, I know you all have played the snake game and definitely, you never wanted to lose.
+I followed some steps and the steps are.....
+
+1. Installing Pygame
+2. Create the Screen
+3. Create the snake
+4. Moving the snake
+5. Game over when the snake hits the boundary 
+6. Adding the food
+7. Increasing the length of the snake
+8. Display the score
+
+Before developing any python project, download any python IDE. We used Pycharm for our project 
+
+
+INSTALLING PYGAME
+
+Pygame is cross-platform python software that was made specifically for video game designing. It also includes graphics, visuals, and sounds that can be used to enhance the game being designed. It contains various libraries that work with images and sounds and can create graphics for games. It simplifies the whole game-designing process and makes it easy for beginners who want to develop games.
+
+The process of installing pygame in python is straightforward. It can be done with the pip command, and the module can be imported into your program with the help of the import command.
+
+					pip install Pygame
+					import pygame
+
+
+CREATE THE SCREEN
+
+To create the screen using pygame, you will need to make use of the display.set_mode() function. Also, you'll have to make use of the init() and the quit() methods to initialize and uninitialized everything at the start and the end of the code. The update() method is used to update any changes made to the screen. 
+
+CREATE THE SNAKE
+
+To create the snake, we first initialized a few color variables to color the snake, later we replaced the rectangles with the snake's image. The color scheme used in Pygame is RGB i.e "Red Green Blue". In case you set all these to 0's, the color will be black and all 255's will be white. So our snake will be a rectangle. To draw rectangles in Pygame, you can make use of a function called draw.rect() which will help you draw the rectangle with the desired color and size.
+
+MOVING THE SNAKE 
+
+To move the snake, we used the key events present in KEYDOWN class of Pygame. The events that are used in our project are K_UP, K_DOWN, K_LEFT, and K_RIGHT to make the snake move up, down, left, and right respectively. 
+
+GAME OVER WHEN SNAKE HITS THE BOUNDARIES
+
+In the snake game, if the player hits the boundaries of the screen, then he loses. to specify that, we have made use of an 'if' statement that defines the limits for the x and y coordinates of the snake to be less than or equal to the screen.
+
+ADDING THE FOOD and INCREASING THE LENGTH OF SNAKE
+
+We added some food items for the snake and when the snake crosses over the food, new food items were displayed at a random location, and the size of the snake increases.
+
+DISPLAY THE SCORE
+
+Last but definitely not least, we will need to display the score of the player. To do this, we have created a new function "Draw_score". This function will display the length of the snake subtracted by 3 because that is the initial size of the snake. 
+
+And on that final note, that concludes our presentation. we Sincerely appretiate your attention today.   
+
+Got a question for us? Please ask...... we'll do our best to answer
